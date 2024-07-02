@@ -10,12 +10,7 @@ void main(List<String> args) async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-
   runApp(MyApp());
-
-
-
-  
 }
 
 class MyApp extends StatefulWidget {
